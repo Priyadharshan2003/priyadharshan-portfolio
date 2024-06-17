@@ -331,9 +331,19 @@ main {
   gap: 15px;
 }
 
+
+/* avatar */
 .avatar-box {
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
+  padding: 0px; /* Optional: Add some padding */
+}
+
+#profile-picture {
+  border-radius: 20%; /* Makes the image circular */
+  width: 100px; /* Ensures the image size */
+  height: 100px; /* Ensures the image size */
+  object-fit: cover; /* Ensures the image covers the box */
 }
 
 .info-content .name {

@@ -1,6 +1,29 @@
 'use strict';
+// avatar-box script.js
+window.onload = function() {
+  // Array of profile picture URLs
+  const profilePictures = [
+    'assets/images/avatar/avatar-pfp-1.png',
+    'assets/images/avatar/avatar-pfp-2.png',
+    'assets/images/avatar/avatar-pfp-3.png',
+    'assets/images/avatar/avatar-pfp-4.png',
+    'assets/images/avatar/avatar-pfp-5.png',
+    'assets/images/avatar/avatar-pfp-6.png',
+    'assets/images/avatar/avatar-pfp-7.png',
+    'assets/images/avatar/avatar-pfp-8.png',
+    'assets/images/avatar/avatar-pfp-9.png',
+    'assets/images/avatar/avatar-pfp-10.png',
+    'assets/images/avatar/avatar-pfp-11.png',
+    'assets/images/avatar/avatar-pfp-12.png',
+    'assets/images/avatar/avatar-pfp-13.png'
+  ];
 
+  // Select a random index from the array
+  const randomIndex = Math.floor(Math.random() * profilePictures.length);
 
+  // Set the src attribute of the img element to the selected picture
+  document.getElementById('profile-picture').src = profilePictures[randomIndex];
+};
 
 // element toggle function
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
@@ -136,6 +159,7 @@ for (let i = 0; i < formInputs.length; i++) {
 
 
 
+
 // page navigation variables
 const navigationLinks = document.querySelectorAll("[data-nav-link]");
 const pages = document.querySelectorAll("[data-page]");
@@ -156,4 +180,5 @@ for (let i = 0; i < navigationLinks.length; i++) {
     }
 
   });
+  
 }
