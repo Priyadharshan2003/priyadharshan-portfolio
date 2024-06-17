@@ -2,23 +2,23 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
+alt = Priyadharshan
+Priyadharshan
 Web developer
 
 Show Contacts
 
 Email
-richard@example.com
+Priyadharshanchandranath@gmail.com
 
 Phone
-+1 (213) 352-2795
++91 9442876978
 
 Birthday
-June 23, 1982
+November 19, 2003
 
 Location
-Sacramento, California, USA
+Salem, Tamilnadu, India
 
 # navbar
 
